@@ -1,0 +1,57 @@
+/* --- ESTILOS GERAIS E FONTES --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;              
+    margin: 0;                
+}
+/* --- CABEÇALHO E RODAPÉ --- */
+header, footer {
+    background-color: #004a91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Estiliza os links do menu de navegação no cabeçalho */
+nav a {
+    color: white;
+    text-decoration: none; 
+    margin: 0 10px;       
+}
+/* --- CONTEÚDO PRINCIPAL --- */
+section, aside {
+    background-color: white;
+    max-width: 800px;
+    margin: 30px auto;   
+    padding: 25px;
+    border-radius: 8px;  
+}
+/* Estiliza os subtítulos h2 e h3 */
+h2, h3 {
+    color: #004a91; 
+    border-bottom: 2px solid #f4f4f9; 
+    padding-bottom: 10px;
+}
+/* --- ESTILO DOS BOTÕES --- */
+.botao-link {
+    display: inline-block;         
+    background-color: #6c757d;     
+    color: white;                 
+    padding: 12px 20px;            
+    margin: 5px;                   
+    text-decoration: none;         
+    font-weight: bold;             
+    border-radius: 5px;            
+    text-align: center;
+}
+/* Define a cor de fundo para cada botão da paleta de cores */
+#c-azul {
+    background-color: #007bff;
+}
+#c-verde {
+    background-color: #28a745;
+}
+#c-amarelo {
+    background-color: #ffc107;
+    color: #333;
+} 
